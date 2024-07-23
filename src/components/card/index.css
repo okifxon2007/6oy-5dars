@@ -1,0 +1,51 @@
+.todocard{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: 2px solid white;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+}
+.todocard input{
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+.todocard button{
+    cursor: pointer;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 5px;
+    width: 70px;
+    height: 35px;
+    font-size: 25px;
+}
+.todocardd{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: silver;
+}
+.todocardd button{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 8px;
+    transition: 1s all ease;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.todocardd h1{
+    font-size: 18px;
+    padding-left: 5px;
+}
